@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>我的博客</title>
+  <style>
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+</style>
 </head>
 <body>
   <h1>我的文章列表</h1>
