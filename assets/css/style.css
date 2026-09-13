@@ -14,7 +14,9 @@ a:hover {text-decoration: underline;}
 body,input,button,textarea,select{font-size: 12px;}
 u{text-decoration:none;}
 body{font-size: 12px;background: #f3f3f3;}
-
+.article{width: 100%;}
+.content{margin: 2%;line-height: 28px;font-size: 17px;width: 96%;float: left;overflow: hidden;}
+.content p{font-size: 17px;line-height: 28px;padding-bottom: 12px;color: #333;}
 /*header*/
 .az_header{float:left;background: #6292ef;width: 100%;height: 138px;}
 .az_header_box{width: 100%;margin: 0 auto;text-align: center;}
