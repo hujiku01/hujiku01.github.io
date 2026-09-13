@@ -342,3 +342,31 @@ body{font-size: 12px;background: #f3f3f3;}
 .main-right .az_box li a {
   color: #0366d6;
 }
+
+/* 收紧相关文章推荐与正文之间的间距 */
+.related_article_img {
+  margin: 15px auto 20px auto !important;
+  padding: 15px 20px !important;
+}
+
+/* 相关文章推荐列表更紧凑 */
+.related_article_img li {
+  margin-bottom: 4px !important;
+  line-height: 1.6 !important;
+}
+
+/* 上一篇/下一篇卡片间距收紧 */
+.previous {
+  margin: 15px auto !important;
+  padding: 12px 20px !important;
+}
+
+/* 最新推荐卡片：收紧列表间距 */
+.main-right .az_box {
+  padding: 12px 18px !important;
+}
+
+.main-right .az_box li {
+  margin-bottom: 3px !important;
+  line-height: 1.6 !important;
+}
