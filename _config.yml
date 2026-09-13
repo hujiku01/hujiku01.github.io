@@ -1,4 +1,11 @@
-title: 科学技术文章网
-description: 每天更新科学技术高质量文章
+title: 新时代科学技术网
+description: 专注科学技术领域，每天更新人工智能、前沿科技、科技创新等高质量文章，为读者提供有深度的科技阅读体验。
+keywords: 科学技术,人工智能,前沿科技,科技创新,科技资讯,科技文章
 baseurl: ""
 url: "https://hujiku01.github.io"
+
+# 百度站长验证（在百度搜索资源平台拿到后填在这里）
+baidu_verify: ""
+
+# 站点语言
+lang: zh-CN
