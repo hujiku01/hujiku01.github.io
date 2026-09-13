@@ -192,11 +192,10 @@ body{font-size: 12px;background: #f3f3f3;}
 
 /* 文章整体容器：限制宽度 + 居中 + 留白 */
 .main-left .article {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: none;
+  margin: 0;
   padding: 30px 25px;
   background: #fff;
-  border-radius: 4px;
 }
 
 /* 文章大标题：放大、加粗、居中 */
