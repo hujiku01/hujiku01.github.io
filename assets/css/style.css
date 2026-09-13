@@ -404,3 +404,31 @@ body{font-size: 12px;background: #f3f3f3;}
 .main-left .article .content p {
   text-indent: 2em;
 }
+
+/* 强制首页两栏并排 */
+.main {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.main-left {
+  flex: 1 1 68% !important;
+  min-width: 0;
+}
+
+.main-right {
+  flex: 0 0 30% !important;
+}
+
+/* 确保窄屏下才上下排列 */
+@media (max-width: 768px) {
+  .main-left,
+  .main-right {
+    flex: 1 1 100% !important;
+  }
+}
