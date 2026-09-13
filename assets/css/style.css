@@ -186,68 +186,66 @@ body{font-size: 12px;background: #f3f3f3;}
 .footer p a{text-decoration:none;color: #d8dde0;padding: 0 5px;}
 
 }
-/* ===== 文章详情页专用样式 ===== */
 
-/* 文章主体容器：限制宽度、居中、留白 */
-.article {
+
+/* ===== 文章详情页专用样式（针对截图问题） ===== */
+
+/* 文章整体容器：限制宽度 + 居中 + 留白 */
+.main-left .article {
   max-width: 800px;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 30px 25px;
   background: #fff;
+  border-radius: 4px;
 }
 
-/* 文章标题 */
-.article .title {
-  font-size: 24px;
-  line-height: 1.4;
+/* 文章大标题：放大、加粗、居中 */
+.main-left .article .title {
+  font-size: 26px !important;
+  font-weight: bold;
+  line-height: 1.5;
   text-align: center;
-  margin-bottom: 10px;
   color: #222;
+  margin: 0 0 12px 0;
 }
 
-/* 文章信息（时间等） */
-.article .info {
+/* 文章信息（时间）：居中、浅灰、小字 */
+.main-left .article .info {
   text-align: center;
   font-size: 13px;
   color: #999;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
 }
 
-/* 正文区域 */
-.article .content {
+/* 正文：字号、行距、段落间距 */
+.main-left .article .content {
   font-size: 16px;
   line-height: 1.9;
   color: #333;
 }
 
-/* 正文段落间距 */
-.article .content p {
+.main-left .article .content p {
   margin: 0 0 18px 0;
   text-align: justify;
 }
 
-/* 正文中的小标题 */
-.article .content h2 {
+/* 正文里的小标题（篇1、篇2那种） */
+.main-left .article .content h2 {
   font-size: 19px;
   line-height: 1.5;
   margin: 30px 0 15px 0;
   color: #222;
   border-left: 4px solid #6e92ef;
-  padding-left: 10px;
+  padding-left: 12px;
+  text-align: left;
 }
 
-/* 正文中的图片 */
-.article .content img {
+/* 正文图片自适应 */
+.main-left .article .content img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 20px auto;
-}
-
-/* 相关推荐、上下篇 */
-.related_article_img,
-.previous {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 0 20px;
 }
