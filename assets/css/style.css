@@ -432,3 +432,10 @@ body{font-size: 12px;background: #f3f3f3;}
     flex: 1 1 100% !important;
   }
 }
+
+.main-left::after,
+.main-right::after {
+  content: "";
+  display: table;
+  clear: both;
+}
