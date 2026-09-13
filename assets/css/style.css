@@ -186,3 +186,68 @@ body{font-size: 12px;background: #f3f3f3;}
 .footer p a{text-decoration:none;color: #d8dde0;padding: 0 5px;}
 
 }
+/* ===== 文章详情页专用样式 ===== */
+
+/* 文章主体容器：限制宽度、居中、留白 */
+.article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background: #fff;
+}
+
+/* 文章标题 */
+.article .title {
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* 文章信息（时间等） */
+.article .info {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 25px;
+}
+
+/* 正文区域 */
+.article .content {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #333;
+}
+
+/* 正文段落间距 */
+.article .content p {
+  margin: 0 0 18px 0;
+  text-align: justify;
+}
+
+/* 正文中的小标题 */
+.article .content h2 {
+  font-size: 19px;
+  line-height: 1.5;
+  margin: 30px 0 15px 0;
+  color: #222;
+  border-left: 4px solid #6e92ef;
+  padding-left: 10px;
+}
+
+/* 正文中的图片 */
+.article .content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* 相关推荐、上下篇 */
+.related_article_img,
+.previous {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
