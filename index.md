@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">我的文章列表</h1>
+<h2 style="text-align: center;">我的文章列表</h2>
 
 <ul>
   {% for post in site.posts %}
