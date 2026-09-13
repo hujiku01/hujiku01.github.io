@@ -498,3 +498,15 @@ body { font-size: 12px; background: #f3f3f3; }
   color: #d8dde0;
   padding: 0 5px;
 }
+/* 左右两栏顶部对齐 */
+.main {
+  align-items: flex-start;
+}
+
+.main-left .az_list {
+  margin-top: 0 !important;
+}
+
+.main-right .az_box {
+  margin-top: 0 !important;
+}
