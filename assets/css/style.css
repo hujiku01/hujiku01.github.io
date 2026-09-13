@@ -439,3 +439,30 @@ body{font-size: 12px;background: #f3f3f3;}
   display: table;
   clear: both;
 }
+
+/* 首页强制两栏 */
+@media (min-width: 769px) {
+  .main {
+    position: relative !important;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .main-left {
+    width: 68% !important;
+    float: left !important;
+  }
+
+  .main-right {
+    width: 30% !important;
+    float: right !important;
+  }
+
+  /* 清除浮动，防止高度塌陷 */
+  .main::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
