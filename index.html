@@ -3,37 +3,38 @@ layout: default
 title: 科学技术文章网
 ---
 
+<div class="main">
 
-
-<div class="main-left">
-  <div class="az_list">
-    <div class="az_list_t"><span><em></em>最新文章</span></div>
-    <ul>
-      {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-          <h2>{{ post.title }}</h2>
-          <span>{{ post.date | date: "%Y-%m-%d" }}</span>
-          <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
-<!-- 右侧列表 -->
-<div class="main-right">
-  <div class="right_fix">
-    <div class="az_box">
-      <div class="az_box_t"><span>热门推荐</span></div>
+  <div class="main-left">
+    <div class="az_list">
+      <div class="az_list_t"><span><em></em>最新文章</span></div>
       <ul>
-        {% for post in site.posts limit:10 %}
+        {% for post in site.posts %}
         <li>
-          <a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a>
+          <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+            <h2>{{ post.title }}</h2>
+            <span>{{ post.date | date: "%Y-%m-%d" }}</span>
+            <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+          </a>
         </li>
         {% endfor %}
       </ul>
     </div>
   </div>
-</div>
+
+  <div class="main-right">
+    <div class="right_fix">
+      <div class="az_box">
+        <div class="az_box_t"><span>热门推荐</span></div>
+        <ul>
+          {% for post in site.posts limit:10 %}
+          <li>
+            <a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>  <!-- 这个闭合标签你之前漏掉了 -->
