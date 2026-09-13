@@ -510,3 +510,31 @@ body { font-size: 12px; background: #f3f3f3; }
 .main-right .az_box {
   margin-top: 0 !important;
 }
+/* ===== 内容页左右对齐 ===== */
+
+/* 让内容页的两栏顶部对齐 */
+.main {
+  align-items: flex-start;
+}
+
+/* 左侧文章卡片：清除顶部外边距 */
+.main-left .article {
+  margin-top: 0 !important;
+}
+
+/* 左侧底部卡片（相关推荐、上下篇）顶部对齐 */
+.main-left .related_article_img,
+.main-left .previous {
+  margin-top: 15px !important;
+}
+
+/* 右侧推荐卡片：清除顶部外边距 */
+.main-right .right_fix {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.main-right .az_box {
+  margin-top: 0 !important;
+  padding-top: 12px !important;
+}
