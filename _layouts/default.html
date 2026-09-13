@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  <!-- 顶部 Logo -->
+  <div class="az_header">
+    <div class="az_header_box">
+      <div class="logo">
+        <a href="{{ '/' | relative_url }}" title="{{ site.title }}"></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 导航栏 -->
+  <div class="daohang">
+    <div class="daohang_box">
+      <a href="{{ '/' | relative_url }}" title="首页">首页</a>
+      <a href="#" title="话题作文">话题作文</a>
+      <a href="#" title="节日作文">节日作文</a>
+      <a href="#" title="字数作文">字数作文</a>
+    </div>
+  </div>
+
+  <!-- 页面主体内容，由各页面自己填充 -->
+  <div class="main">
+    {{ content }}
+  </div>
+
+  <!-- 页脚 -->
+  <div class="footer">
+    <p>Copyright © {{ site.time | date: "%Y" }} <a href="{{ '/' | relative_url }}">{{ site.title }}</a> 版权所有</p>
+  </div>
+
+</body>
+</html>
