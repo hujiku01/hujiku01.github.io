@@ -249,3 +249,97 @@ body{font-size: 12px;background: #f3f3f3;}
   display: block;
   margin: 20px auto;
 }
+
+/* 相关文章推荐：卡片式 */
+.related_article_img {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px 25px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.related_article_img .related_top {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.related_article_img ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.related_article_img li {
+  margin-bottom: 8px;
+  line-height: 1.8;
+}
+
+.related_article_img li a {
+  color: #0366d6;
+  font-size: 15px;
+}
+
+/* 上一篇 / 下一篇：左右分开 */
+.previous {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px 25px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.previous .pre,
+.previous .next {
+  font-size: 14px;
+  color: #666;
+}
+
+.previous .pre a,
+.previous .next a {
+  color: #0366d6;
+}
+
+/* 最新推荐：卡片式，列表更紧凑 */
+.main-right .az_box {
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.main-right .az_box_t {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.main-right .az_box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-right .az_box li {
+  margin-bottom: 6px;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.main-right .az_box li a {
+  color: #0366d6;
+}
