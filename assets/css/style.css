@@ -1,6 +1,4 @@
-@import url(list.ie.css) screen and (min-width:750px);
-@media screen and (max-width: 750px) {
-@charset "gb2312";
+
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {margin: 0;padding: 0;}
 table {border-collapse: collapse;border-spacing: 0;width: 100%;line-height: 30px;}
 td {line-height: 30px;}
