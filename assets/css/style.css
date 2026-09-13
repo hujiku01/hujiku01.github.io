@@ -1,1 +1,21 @@
+.az_header{float:left;background: #6292ef;width: 100%;height: 138px;}
+.az_header_box{width: 100%;margin: 0 auto;text-align: center;}
 
+.daohang{float:left;width: 100%;background: #5184e6;line-height: 44px;padding: 2% 0;}
+.daohang_box{margin: auto;width: 100%;}
+.daohang_box a{float: left;color: #fff;width: 25%;font-size: 15px;text-align: center;}
+.daohang_box a:nth-child(1){}
+
+.az_list{float: left;width: 94%;background: #fff;border-radius: 10px;padding: 3%;margin-top: 20px;}
+.az_list_t{float: left;width: 100%;border-bottom: 3px solid #6292ef;height: 60px;line-height: 60px;margin-bottom: 18px;}
+.az_list_t span{float: left;height: 45px;color: #6292ef;font-size: 24px;}
+.az_list_t em{float: left;width: 43px;height: 43px;background-color: #6292ef;border-radius: 100px;text-align: center;margin-bottom: 27px;margin-right: 10px;margin-top: 8px;}
+.az_list_t em:before{content:"";width: 32px;height: 28px;background: url(../img/ico.png) no-repeat -1px -306px;;;;;;;;;;;;;margin-top: 11px;;;;;;;;;;display: inline-block;;}
+
+.az_list ul{float:left;width: 100%;}
+.az_list ul li{float:left;width: 100%;border-bottom: 1px solid #e7e7e7;padding-bottom: 10px;margin-bottom: 10px;}
+.az_list ul li a{float:left;width: 100%;}
+.az_list ul li a h2{float:left;height: 30px;line-height: 30px;font-size: 16px;font-weight: 700;}
+.az_list ul li a h2:hover {text-decoration: underline;}
+.az_list ul li a span{float: right;height: 30px;line-height: 30px;color: #bfbfbf;font-size: 12px;}
+.az_list ul li a p{float:left;width: 100%;line-height: 31px;color: #8a8a8a;font-size: 13px;height: 60px;overflow: hidden;}
